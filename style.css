@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #8c9600, #e4f500);
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  background-color: #bcf500;
+  margin: 5% auto 0 auto;
+  border: 2px solid #93b524;
+  border-radius: 10%;
+}
+
+.slider-container {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+}
+
+/* Arrow buttons */
+.left-slide {
+  position: absolute;
+  left: 5%;
+  top: 170px;
+}
+
+.right-slide {
+  position: absolute;
+  right: 5%;
+  top: 170px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* Image screen */
+.slider-screen {
+  position: relative;
+  height: 90%;
+  width: 80%;
+  left: 10%;
+  top: 2%;
+}
+
+.image-container {
+  position: relative;
+  height: 100%;
+  background-image: url('img/sea.jpg');
+}
