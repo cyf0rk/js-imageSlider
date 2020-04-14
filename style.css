@@ -22,13 +22,13 @@ body {
 }
 
 /* Arrow buttons */
-.left-slide {
+.left-arrow {
   position: absolute;
   left: 5%;
   top: 170px;
 }
 
-.right-slide {
+.right-arrow {
   position: absolute;
   right: 5%;
   top: 170px;
@@ -48,8 +48,7 @@ body {
   top: 2%;
 }
 
-.image-container {
-  position: relative;
+img {
   height: 100%;
-  background-image: url('img/sea.jpg');
+  width: 100%;
 }
